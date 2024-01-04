@@ -9,7 +9,7 @@ import {
     useColorModeValue,
     VisuallyHidden,
 } from '@chakra-ui/react'
-import { FaInstagram, FaTwitter, FaYoutube } from 'react-icons/fa'
+import { FaInstagram, FaMapMarkedAlt, FaFacebook, FaLinkedin } from 'react-icons/fa'
 import { ReactNode } from 'react'
 
 const SocialButton = ({
@@ -23,19 +23,20 @@ const SocialButton = ({
 }) => {
     return (
         <chakra.button
-            bg={useColorModeValue('blackAlpha.100', 'whiteAlpha.100')}
+            bg={useColorModeValue('purple.100', '#daa520')}
             rounded={'full'}
             w={8}
             h={8}
             cursor={'pointer'}
             as={'a'}
             href={href}
+            target='_blank'
             display={'inline-flex'}
             alignItems={'center'}
             justifyContent={'center'}
             transition={'background 0.3s ease'}
             _hover={{
-                bg: useColorModeValue('blackAlpha.200', 'whiteAlpha.200'),
+                bg: useColorModeValue('purple.400', '#ffdf33'),
             }}>
             <VisuallyHidden>{label}</VisuallyHidden>
             {children}
@@ -56,15 +57,18 @@ export default function SmallWithSocial() {
                 spacing={4}
                 justify={{ base: 'center', md: 'space-between' }}
                 align={{ base: 'center', md: 'center' }}>
-                <Text>© 2022 Chakra Templates. All rights reserved</Text>
+                <Text>Delta Tau Delta Fraternity. Made with ♥ by Reetesh Sudhakar.</Text>
                 <Stack direction={'row'} spacing={6}>
-                    <SocialButton label={'Twitter'} href={'#'}>
-                        <FaTwitter />
+                    <SocialButton label={'Address'} href={'https://maps.app.goo.gl/Ki8RYu1s7pTNLtR98'}>
+                        <FaMapMarkedAlt />
                     </SocialButton>
-                    <SocialButton label={'YouTube'} href={'#'}>
-                        <FaYoutube />
+                    <SocialButton label={'Facebook'} href={'https://www.facebook.com/GTDelt'}>
+                        <FaFacebook />
                     </SocialButton>
-                    <SocialButton label={'Instagram'} href={'#'}>
+                    <SocialButton label={'LinkedIn'} href={'https://www.linkedin.com/groups/965207/'}>
+                        <FaLinkedin />
+                    </SocialButton>
+                    <SocialButton label={'Instagram'} href={'https://www.instagram.com/gtdelts'}>
                         <FaInstagram />
                     </SocialButton>
                 </Stack>
