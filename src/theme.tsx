@@ -17,11 +17,11 @@ const theme = extendTheme({
         _dark: '#ade3b8',
       },
       heroGradientStart: {
-        default: '#7928CA',
+        default: '#FFD700',
         _dark: '#e3a7f9',
       },
       heroGradientEnd: {
-        default: '#FF0080',
+        default: '#4B006E',
         _dark: '#fbec8f',
       },
     },
