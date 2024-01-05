@@ -1,19 +1,10 @@
-import {
-  Link as ChakraLink,
-  Text,
-  Code,
-  List,
-  ListIcon,
-  ListItem,
-  Container,
-  Flex
-} from '@chakra-ui/react'
-import { CheckCircleIcon, LinkIcon } from '@chakra-ui/icons'
 import Hero from '../components/Hero'
+import HomePageInfo from '../components/HomePageInfo'
 
 const Index = () => (
   <>
     <Hero />
+    <HomePageInfo />
   </>
 )
 
