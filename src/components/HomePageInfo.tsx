@@ -14,7 +14,6 @@ import {
     Img
 } from '@chakra-ui/react'
 import React, { useState, useEffect } from 'react'
-import { render } from 'react-dom';
 
 interface IntroLetterProps {
     filePath: string;
@@ -80,25 +79,25 @@ export default function HomePageInfo() {
                     <Img
                         boxSize="75px"
                         objectFit="cover"
-                        src="/value-symbol-1.png.webp"
-                        alt="symbol"
-                    />
-                    <Img
-                        boxSize="75px"
-                        objectFit="cover"
                         src="/value-symbol-2.png.webp"
                         alt="symbol"
                     />
                     <Img
                         boxSize="75px"
                         objectFit="cover"
-                        src="/value-symbol-3.png.webp"
+                        src="/value-symbol-4.png.webp"
                         alt="symbol"
                     />
                     <Img
                         boxSize="75px"
                         objectFit="cover"
-                        src="/value-symbol-4.png.webp"
+                        src="/value-symbol-1.png.webp"
+                        alt="symbol"
+                    />
+                    <Img
+                        boxSize="75px"
+                        objectFit="cover"
+                        src="/value-symbol-3.png.webp"
                         alt="symbol"
                     />
                 </HStack>

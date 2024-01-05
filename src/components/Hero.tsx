@@ -1,6 +1,13 @@
 'use client'
 
-import { Stack, Flex, Button, Text, VStack, useBreakpointValue, useColorModeValue } from '@chakra-ui/react'
+import {
+    Stack,
+    Flex,
+    Text,
+    VStack,
+    useBreakpointValue,
+    useColorModeValue
+} from '@chakra-ui/react'
 
 export default function Hero() {
     const heroTextColor = useColorModeValue('#c9a227', '#DFB2F4')
@@ -24,14 +31,15 @@ export default function Hero() {
                         color={heroTextColor}
                         fontWeight={700}
                         lineHeight={1.2}
-                        fontSize={'3vw'}>
+                        fontSize={{ base: '3vw', sm: '5vw', md: '3vw' }}
+                    >
                         Delta Tau Delta - Georgia Tech
                     </Text>
                     <Text
                         color={'white'}
                         fontWeight={600}
                         lineHeight={1.2}
-                        fontSize={'1.5vw'}
+                        fontSize={{ base: '1.5vw', sm: '3vw', md: '1.5vw' }}
                         textAlign={'left'}
                     >
                         Committed to Lives of Excellence.
