@@ -9,16 +9,20 @@ import {
     useColorModeValue
 } from '@chakra-ui/react'
 
-export default function Hero() {
+interface HeroProps {
+    imagePath: string;
+    title: string;
+    subtitle: string;
+}
+
+export default function Hero({ imagePath, title, subtitle }: HeroProps) {
     const heroTextColor = useColorModeValue('#c9a227', '#DFB2F4')
 
     return (
         <Flex
             w={'full'}
             h={'100vh'}
-            backgroundImage={
-                '/centennial.JPG'
-            }
+            backgroundImage={imagePath}
             backgroundSize={'cover'}
             backgroundPosition={'center center'}>
             <VStack
@@ -33,7 +37,7 @@ export default function Hero() {
                         lineHeight={1.2}
                         fontSize={{ base: '3vw', sm: '5vw', md: '3vw' }}
                     >
-                        Delta Tau Delta - Georgia Tech
+                        {title}
                     </Text>
                     <Text
                         color={'white'}
@@ -42,7 +46,7 @@ export default function Hero() {
                         fontSize={{ base: '1.5vw', sm: '3vw', md: '1.5vw' }}
                         textAlign={'left'}
                     >
-                        Committed to Lives of Excellence.
+                        {subtitle}
                     </Text>
                 </Stack>
             </VStack>

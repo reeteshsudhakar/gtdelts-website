@@ -73,7 +73,7 @@ export default function WithSubnavigation() {
                     <Box>
                         <Link href="/" passHref>
                             <Img
-                                src='/delt-logo.png'
+                                src='/images/delt-logo.png'
                                 alt='Delta Tau Delta'
                                 maxWidth="120px" // Adjust based on your navbar size
                                 maxHeight="100%"  // Ensures the image height doesn't exceed the navbar height

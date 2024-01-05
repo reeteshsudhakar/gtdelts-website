@@ -3,7 +3,11 @@ import HomePageInfo from '../components/HomePageInfo'
 
 const Index = () => (
   <>
-    <Hero />
+    <Hero
+      imagePath='/images/centennial.JPG'
+      title='Delta Tau Delta - Georgia Tech'
+      subtitle='Committed to Lives of Excellence'
+    />
     <HomePageInfo />
   </>
 )

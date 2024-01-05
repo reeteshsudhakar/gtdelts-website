@@ -71,7 +71,7 @@ export default function HomePageInfo() {
                         Gamma Psi
                     </Text>
                 </Heading>
-                <IntroLetter filePath={'/introLetterPart1.txt'} />
+                <IntroLetter filePath={'/assets/introLetterPart1.txt'} />
                 <HStack
                     spacing='24px'
                     align='center'
@@ -79,31 +79,31 @@ export default function HomePageInfo() {
                     <Img
                         boxSize="75px"
                         objectFit="cover"
-                        src="/value-symbol-2.png.webp"
+                        src="/images/value-symbol-2.png.webp"
                         alt="symbol"
                     />
                     <Img
                         boxSize="75px"
                         objectFit="cover"
-                        src="/value-symbol-4.png.webp"
+                        src="/images/value-symbol-4.png.webp"
                         alt="symbol"
                     />
                     <Img
                         boxSize="75px"
                         objectFit="cover"
-                        src="/value-symbol-1.png.webp"
+                        src="/images/value-symbol-1.png.webp"
                         alt="symbol"
                     />
                     <Img
                         boxSize="75px"
                         objectFit="cover"
-                        src="/value-symbol-3.png.webp"
+                        src="/images/value-symbol-3.png.webp"
                         alt="symbol"
                     />
                 </HStack>
-                <IntroLetter filePath={'/introLetterPart2.txt'} />
+                <IntroLetter filePath={'/assets/introLetterPart2.txt'} />
                 <Img
-                    src='/deltHouse.jpg'
+                    src='/images/deltHouse.jpg'
                     alt='Delt House'
                     borderRadius={'lg'}
                 />
