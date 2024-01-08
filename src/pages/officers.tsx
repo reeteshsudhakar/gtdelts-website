@@ -32,7 +32,7 @@ const Officers = () => {
                         maxW={'3xl'}
                         align={'justify'}
                     >
-                        The Executive Board is the governing body of the chapter. They are responsible for the day-to-day operations of the chapter and are elected by the chapter on a yearly basis.
+                        The Executive Board is the governing body of the chapter. They are responsible for the day-to-day operations of the chapter and are elected by the chapter on a yearly basis. Each member of the Executive Board is responsible for a specific area of the chapter's operations, with various chair positions reporting to them to help the chapter succeed as a whole. Each of our brothers either holds a position or actively participates in a committee to help the chapter run smoothly.
                     </Text>
                     <VStack>
                         <HStack
@@ -129,7 +129,6 @@ const Officers = () => {
                                 major={'Aerospace Engineering'}
                             />
                         </HStack>
-
                     </VStack>
                 </Stack>
             </Container>
