@@ -41,7 +41,7 @@ export default function Hero({ imagePath, title, subtitle }: HeroProps) {
                     </Text>
                     <Text
                         color={'white'}
-                        fontWeight={600}
+                        fontWeight={300}
                         lineHeight={1.2}
                         fontSize={{ base: '1.5vw', sm: '3vw', md: '1.5vw' }}
                         textAlign={'left'}
