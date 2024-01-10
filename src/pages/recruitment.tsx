@@ -8,7 +8,7 @@ import {
     Container,
     Flex
 } from '@chakra-ui/react'
-import Warning from '../components/warning'
+import Warning from '../components/Warning'
 
 const Recruitment = () => (
     <>

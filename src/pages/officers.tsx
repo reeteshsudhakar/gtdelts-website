@@ -1,4 +1,3 @@
-import Warning from '../components/warning'
 import Hero from '../components/Hero'
 import PersonProfile from '../components/PersonProfile'
 import { Container, HStack, Stack, Text, VStack } from '@chakra-ui/react'
