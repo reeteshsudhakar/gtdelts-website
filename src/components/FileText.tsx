@@ -35,7 +35,7 @@ const FileText = ({ filePath }: FileTextProps) => {
                 key={index}
                 mb={2}
                 color={useColorModeValue('#000000', '#FFFFFF')}
-                maxW={'3xl'}
+                maxW={'inherit'}
                 align={'justify'}
             >
                 {line}

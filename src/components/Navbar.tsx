@@ -264,8 +264,13 @@ const NAV_ITEMS: Array<NavItem> = [
             },
             {
                 label: 'About Us',
-                subLabel: 'Information and FAQs about our chapter - Gamma Psi',
+                subLabel: 'Information about our chapter and its history',
                 href: '/about',
+            },
+            {
+                label: 'FAQs & Testimonials',
+                subLabel: 'Common questions and information for parents and prospective members',
+                href: '/faqs-testimonials',
             },
         ],
     },
