@@ -10,7 +10,8 @@ import {
     Stack,
     VStack,
     useBreakpointValue,
-    useColorModeValue
+    useColorModeValue,
+    Spacer
 } from '@chakra-ui/react'
 import FileText from '../components/FileText'
 import { useState, useEffect } from 'react';
@@ -77,13 +78,25 @@ const FAQs = () => (
                 >
                     FAQs and Testimonials
                 </Text>
+                <FileText filePath='assets/faqs/faqsBlurb.txt' />
             </Stack>
             <VStack
                 spacing={'20px'}
                 align={'left'}
             >
+                <Text
+                    fontWeight={400}
+                    fontSize={{ base: '3xl', sm: '4xl', md: '5xl' }}
+                    lineHeight={'110%'}
+                    color={useColorModeValue('#c9a227', '#7851a9')}
+                >
+                    FAQs
+                </Text>
                 <FAQBlock filePath='assets/faqs/faq-1.txt' />
                 <FAQBlock filePath='assets/faqs/faq-2.txt' />
+                <FAQBlock filePath='assets/faqs/faq-3.txt' />
+                <FAQBlock filePath='assets/faqs/faq-4.txt' />
+                <FAQBlock filePath='assets/faqs/faq-5.txt' />
             </VStack>
         </Container>
     </>
