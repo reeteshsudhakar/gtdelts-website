@@ -15,6 +15,7 @@ import {
 } from '@chakra-ui/react'
 import FileText from '../components/FileText'
 import { useState, useEffect } from 'react';
+import GridBlurredBackdrop from '../components/testimonials';
 
 interface FAQBlockProps {
     filePath: string;
@@ -82,7 +83,8 @@ const FAQs = () => (
             </Stack>
             <VStack
                 spacing={'20px'}
-                align={'left'}
+                align={'center'}
+                padding={{ base: 4, md: 4 }}
             >
                 <Text
                     fontWeight={400}
@@ -92,11 +94,29 @@ const FAQs = () => (
                 >
                     FAQs
                 </Text>
+            </VStack>
+            <VStack
+                spacing={'20px'}
+                align={'left'}
+            >
                 <FAQBlock filePath='assets/faqs/faq-1.txt' />
                 <FAQBlock filePath='assets/faqs/faq-2.txt' />
                 <FAQBlock filePath='assets/faqs/faq-3.txt' />
                 <FAQBlock filePath='assets/faqs/faq-4.txt' />
                 <FAQBlock filePath='assets/faqs/faq-5.txt' />
+            </VStack>
+            <VStack
+                padding={'40px'}
+            >
+                <Text
+                    fontWeight={400}
+                    fontSize={{ base: '3xl', sm: '4xl', md: '5xl' }}
+                    lineHeight={'110%'}
+                    color={useColorModeValue('#c9a227', '#7851a9')}
+                >
+                    Testimonials
+                </Text>
+                <GridBlurredBackdrop />
             </VStack>
         </Container>
     </>
