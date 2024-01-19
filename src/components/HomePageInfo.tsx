@@ -103,7 +103,7 @@ export default function HomePageInfo() {
                 </HStack>
                 <IntroLetter filePath={'/assets/introLetterPart2.txt'} />
                 <Img
-                    src='/images/deltHouse.jpg'
+                    src='/images/delt-house.jpg'
                     alt='Delt House'
                     borderRadius={'lg'}
                 />
