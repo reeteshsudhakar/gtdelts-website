@@ -36,8 +36,10 @@ const AcademicsProfessionalism = () => (
                 </Text>
                 <FileText filePath='assets/academicsProfessionalism.txt' />
                 <Img
-                    src={useColorModeValue('images/jobs-light.jpg', 'images/jobs-dark.jpg')}
+                    // TODO: change image for dark mode
+                    src={useColorModeValue('images/jobs-light.jpg', 'images/jobs-light.jpg')}
                     alt='Jobs Blurb'
+                    borderRadius={'lg'}
                 />
             </Stack>
         </Container>
