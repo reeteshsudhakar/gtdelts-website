@@ -8,7 +8,8 @@ import {
     Container,
     Flex,
     Stack,
-    useColorModeValue
+    useColorModeValue,
+    Img
 } from '@chakra-ui/react'
 import Warning from '../components/Warning'
 import FileText from '../components/FileText'
@@ -34,6 +35,10 @@ const AcademicsProfessionalism = () => (
                     Academics and Professionalism
                 </Text>
                 <FileText filePath='assets/academicsProfessionalism.txt' />
+                <Img
+                    src={useColorModeValue('images/jobs-light.jpg', 'images/jobs-dark.jpg')}
+                    alt='Jobs Blurb'
+                />
             </Stack>
         </Container>
     </>
