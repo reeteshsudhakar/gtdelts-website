@@ -45,7 +45,7 @@ export default function PersonProfile({ imagePath, backgroundPath, position, nam
                 />
                 <Flex justify={'center'} mt={-12}>
                     <Avatar
-                        size={'xl'}
+                        size={'2xl'}
                         src={imagePath}
                         css={{
                             border: '2px solid white',
