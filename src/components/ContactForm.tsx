@@ -33,19 +33,6 @@ import {
 } from 'react-icons/md'
 import { BsPerson } from 'react-icons/bs'
 
-
-const userData = {
-    phone: "+1 (470) 313-0991",
-    email: "president.gtdelt@gmail.com",
-    address: "227 4th Street NW, Atlanta, GA 30313",
-    socialLinks: {
-        facebook: "https://www.facebook.com/GTDelt",
-        twitter: "https://twitter.com/",
-        instagram: "https://www.instagram.com/gtdelts",
-    },
-}
-
-
 export default function Contact() {
     return (
         <Flex>

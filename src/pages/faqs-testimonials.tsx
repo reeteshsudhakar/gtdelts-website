@@ -18,50 +18,8 @@ import {
 } from '@chakra-ui/react'
 import FileText from '../components/FileText'
 import { useState, useEffect } from 'react';
+import { testimonials } from '../utils/constants';
 
-const testimonials = [
-    {
-        name: 'Harry Schuster',
-        role: 'Alumnus - Joined Spring 2017',
-        content:
-            'Delt has continued to help me in my life even past graduation. In addition to all of the leadership skills I picked up while at the chapter, I also enjoy benefits like being able to drop by the house when I happen to be on campus and having a consistent place to tailgate for when I return for home games. Although it has been a couple of years since I graduated, I always look forward to meeting the new guys since I know our house can pick friendly and quality people to continue on our letters.',
-        avatar:
-            'images/testimonials/harry.png'
-    },
-    {
-        name: 'Reetesh Sudhakar',
-        role: 'Brother - Joined Fall 2021',
-        content:
-            'Delt has been a community that has helped me constantly grow throughout college. Whether it was figuring out how to handle my course load, opening myself up to others, or getting my first job, I’ve always been able to lean on the brothers for their advice and support. As a Delt, I’m also able to give back to others with countless opportunities like Trees Atlanta, JDRF, or Walk for Diabetes. My time as a Delt has helped me grow to become the best version of myself.',
-        avatar:
-            'images/testimonials/ree.png'
-    },
-    {
-        name: 'Nicole Caiati',
-        role: 'Former Sweetheart - Alpha Xi Delta',
-        content:
-            'Being around the Delts always makes me so happy because I know that I’m surrounded with a house of guys that will have my back no matter what, and will drop anything to help me at any time. I’ve had some of my best college memories with these guys because they’re truly kind and genuine people that I feel very fortunate to be so close with.',
-        avatar:
-            'images/testimonials/nicole.png'
-
-    },
-    {
-        name: 'Laura Jeniski',
-        role: 'Alpha Gamma Delta',
-        content:
-            'My favorite thing about Delt is the people! I’ve had brothers there to pick me up when I fall (literally & figuratively), help when I am stuck on an O-Chem problem, play volleyball in the backyard, and tailgate a football or baseball game. I feel that I am welcomed by everyone and always have a good time hanging out! Can’t wait to smash some more pies at Pelt-A-Delt!',
-        avatar:
-            'images/testimonials/laura.png'
-    },
-    {
-        name: 'Jason Wang',
-        role: 'Alumnus - Joined Fall 2017',
-        content:
-            'I joined GT Delt back in 2017, and it was the best decision that I made in my college career. The upperclassmen could guide me through my academic and professional development, and the underclassmen gave me support in my day to day life. I was given opportunities as a leader the second that I joined, and was able to cultivate those skills to culminate into serving on the IFC executive board and being the president of our chapter. I made many friends across campus and the nation that I wouldn’t have otherwise through Delt. I have had several jobs throughout college with fortune 25 companies that I wouldn’t have gotten without the help that I received from my fellow brothers. The professional network that we have is one of the most valuable things to have as someone looking to gain real job experience during college. I have met lifelong brothers in this organization, and I can’t think of anyone else that I would’ve wanted to spend my college years with. Here’s to growing our chapter and living lives of excellence, I wish you luck in your college career!',
-        avatar:
-            'images/testimonials/jason.png'
-    },
-]
 interface TestimonialCardProps {
     name: string
     role: string

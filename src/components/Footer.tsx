@@ -11,6 +11,7 @@ import {
 } from '@chakra-ui/react'
 import { FaInstagram, FaMapMarkedAlt, FaFacebook, FaLinkedin } from 'react-icons/fa'
 import SocialButton from './SocialButton'
+import { deltSocials } from '../utils/constants'
 
 export default function SmallWithSocial() {
     return (
@@ -27,16 +28,16 @@ export default function SmallWithSocial() {
                 align={{ base: 'center', md: 'center' }}>
                 <Text>Delta Tau Delta Fraternity. Made with ♥ by Reetesh Sudhakar.</Text>
                 <Stack direction={'row'} spacing={6}>
-                    <SocialButton label={'Address'} href={'https://maps.app.goo.gl/Ki8RYu1s7pTNLtR98'}>
+                    <SocialButton label={'Address'} href={deltSocials.address}>
                         <FaMapMarkedAlt />
                     </SocialButton>
-                    <SocialButton label={'Facebook'} href={'https://www.facebook.com/GTDelt'}>
+                    <SocialButton label={'Facebook'} href={deltSocials.facebook}>
                         <FaFacebook />
                     </SocialButton>
-                    <SocialButton label={'LinkedIn'} href={'https://www.linkedin.com/groups/965207/'}>
+                    <SocialButton label={'LinkedIn'} href={deltSocials.linkedin}>
                         <FaLinkedin />
                     </SocialButton>
-                    <SocialButton label={'Instagram'} href={'https://www.instagram.com/gtdelts'}>
+                    <SocialButton label={'Instagram'} href={deltSocials.instagram}>
                         <FaInstagram />
                     </SocialButton>
                 </Stack>

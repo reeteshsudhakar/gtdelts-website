@@ -2,6 +2,7 @@ import Hero from '../components/Hero'
 import PersonProfile from '../components/PersonProfile'
 import { Container, HStack, Stack, Text, VStack } from '@chakra-ui/react'
 import { useColorModeValue } from '@chakra-ui/color-mode'
+import { exec } from '../utils/constants'
 
 const Officers = () => {
     return (
@@ -31,101 +32,101 @@ const Officers = () => {
                         maxW={'3xl'}
                         align={'justify'}
                     >
-                        The Executive Board is the governing body of the chapter. They are responsible for the day-to-day operations of the chapter and are elected by the chapter on a yearly basis. Each member of the Executive Board is responsible for a specific area of the chapter's operations, with various chair positions reporting to them to help the chapter succeed as a whole. Each of our brothers either holds a position or actively participates in a committee to help the chapter run smoothly.
+                        {exec.description}
                     </Text>
                     <VStack>
                         <HStack
                             spacing={'25px'}
                         >
                             <PersonProfile
-                                name={'Kerem Edis'}
-                                position={'President'}
-                                imagePath={'/images/exec/president.png'}
-                                backgroundPath={'/images/gold-background.png'}
-                                socials={['https://www.instagram.com/kerem_edis/', 'https://www.linkedin.com/in/keremedis/']}
-                                major={'Mechanical Engineering'}
+                                name={exec.president.name}
+                                position={exec.president.position}
+                                imagePath={exec.president.imagePath}
+                                backgroundPath={exec.president.backgroundPath}
+                                socials={exec.president.socials}
+                                major={exec.president.major}
                             />
                             <PersonProfile
-                                name={'Julien Zappulla'}
-                                position={'Vice President'}
-                                imagePath={'/images/exec/vice-president.png'}
-                                backgroundPath={'/images/purple-background.png'}
-                                socials={['https://www.instagram.com/julienzappulla10/', 'https://www.linkedin.com/in/julienzappulla/']}
-                                major={'Mechanical Engineering'}
+                                name={exec.vicePresident.name}
+                                position={exec.vicePresident.position}
+                                imagePath={exec.vicePresident.imagePath}
+                                backgroundPath={exec.vicePresident.backgroundPath}
+                                socials={exec.vicePresident.socials}
+                                major={exec.vicePresident.major}
                             />
                             <PersonProfile
-                                name={'Reetesh Sudhakar'}
-                                position={'Director of Member Development'}
-                                imagePath={'/images/exec/dmd.png'}
-                                backgroundPath={'/images/gold-background.png'}
-                                socials={['https://www.instagram.com/reeteshsudhakar/', 'https://www.linkedin.com/in/reetesh-sudhakar/']}
-                                major={'Computer Science'}
-                            />
-                        </HStack>
-                        <HStack
-                            spacing={'25px'}
-                        >
-                            <PersonProfile
-                                name={'Jong Liu'}
-                                position={'Rush Chairman'}
-                                imagePath={'/images/exec/rush-chair.png'}
-                                backgroundPath={'/images/purple-background.png'}
-                                socials={['https://www.instagram.com/jongliu930/', 'https://www.linkedin.com']}
-                                major={'Biomedical Engineering'}
-                            />
-                            <PersonProfile
-                                name={'Jake Mertz'}
-                                position={'Treasurer'}
-                                imagePath={'/images/exec/treasurer.png'}
-                                backgroundPath={'/images/gold-background.png'}
-                                socials={['https://www.instagram.com', 'https://www.linkedin.com/in/jake-mertz-22bb9b260/']}
-                                major={'Mechanical Engineering'}
-                            />
-                            <PersonProfile
-                                name={'Eric Dong'}
-                                position={'Sergeant at Arms'}
-                                imagePath={'/images/exec/sergeant-at-arms.png'}
-                                backgroundPath={'/images/purple-background.png'}
-                                socials={['https://www.instagram.com/belericant/', 'https://www.linkedin.com/in/eric-r-dong/']}
-                                major={'Computer Science'}
+                                name={exec.directorOfMemberDevelopment.name}
+                                position={exec.directorOfMemberDevelopment.position}
+                                imagePath={exec.directorOfMemberDevelopment.imagePath}
+                                backgroundPath={exec.directorOfMemberDevelopment.backgroundPath}
+                                socials={exec.directorOfMemberDevelopment.socials}
+                                major={exec.directorOfMemberDevelopment.major}
                             />
                         </HStack>
                         <HStack
                             spacing={'25px'}
                         >
                             <PersonProfile
-                                name={'Truett Brown'}
-                                position={'Risk Manager'}
-                                imagePath={'/images/exec/risk-manager.png'}
-                                backgroundPath={'/images/gold-background.png'}
-                                socials={['https://www.instagram.com/truettbrown/', 'https://www.linkedin.com/in/truett-brown/']}
-                                major={'Mechanical Engineering'}
+                                name={exec.rushChairman.name}
+                                position={exec.rushChairman.position}
+                                imagePath={exec.rushChairman.imagePath}
+                                backgroundPath={exec.rushChairman.backgroundPath}
+                                socials={exec.rushChairman.socials}
+                                major={exec.rushChairman.major}
                             />
                             <PersonProfile
-                                name={'Liam Adams'}
-                                position={'House Manager'}
-                                imagePath={'/images/exec/house-manager.png'}
-                                backgroundPath={'/images/purple-background.png'}
-                                socials={['https://www.instagram.com/_.liamadams._/', 'https://www.linkedin.com/in/liam-adams-396730232/']}
-                                major={'Mechanical Engineering'}
+                                name={exec.treasurer.name}
+                                position={exec.treasurer.position}
+                                imagePath={exec.treasurer.imagePath}
+                                backgroundPath={exec.treasurer.backgroundPath}
+                                socials={exec.treasurer.socials}
+                                major={exec.treasurer.major}
                             />
                             <PersonProfile
-                                name={'Victor Cavalletti'}
-                                position={'Director of Communications'}
-                                imagePath={'/images/exec/director-of-communications.png'}
-                                backgroundPath={'/images/gold-background.png'}
-                                socials={['https://www.instagram.com/victor___cavalletti/', 'https://www.linkedin.com/in/victorcavalletti/']}
-                                major={'Industrial Design'}
+                                name={exec.sergeantAtArms.name}
+                                position={exec.sergeantAtArms.position}
+                                imagePath={exec.sergeantAtArms.imagePath}
+                                backgroundPath={exec.sergeantAtArms.backgroundPath}
+                                socials={exec.sergeantAtArms.socials}
+                                major={exec.sergeantAtArms.major}
+                            />
+                        </HStack>
+                        <HStack
+                            spacing={'25px'}
+                        >
+                            <PersonProfile
+                                name={exec.sergeantAtArms.name}
+                                position={exec.sergeantAtArms.position}
+                                imagePath={exec.sergeantAtArms.imagePath}
+                                backgroundPath={exec.sergeantAtArms.backgroundPath}
+                                socials={exec.sergeantAtArms.socials}
+                                major={exec.sergeantAtArms.major}
+                            />
+                            <PersonProfile
+                                name={exec.riskManager.name}
+                                position={exec.riskManager.position}
+                                imagePath={exec.riskManager.imagePath}
+                                backgroundPath={exec.riskManager.backgroundPath}
+                                socials={exec.riskManager.socials}
+                                major={exec.riskManager.major}
+                            />
+                            <PersonProfile
+                                name={exec.directorOfCommunications.name}
+                                position={exec.directorOfCommunications.position}
+                                imagePath={exec.directorOfCommunications.imagePath}
+                                backgroundPath={exec.directorOfCommunications.backgroundPath}
+                                socials={exec.directorOfCommunications.socials}
+                                major={exec.directorOfCommunications.major}
                             />
                         </HStack>
                         <HStack>
                             <PersonProfile
-                                name={'Lucas Deal'}
-                                position={'Assistant Treasurer'}
-                                imagePath={'/images/exec/assistant-treasurer.png'}
-                                backgroundPath={'/images/gold-background.png'}
-                                socials={['https://www.instagram.com/real.charlieepic/', 'https://www.linkedin.com/in/lucas-deal/']}
-                                major={'Aerospace Engineering'}
+                                name={exec.assistantTreasurer.name}
+                                position={exec.assistantTreasurer.position}
+                                imagePath={exec.assistantTreasurer.imagePath}
+                                backgroundPath={exec.assistantTreasurer.backgroundPath}
+                                socials={exec.assistantTreasurer.socials}
+                                major={exec.assistantTreasurer.major}
                             />
                         </HStack>
                     </VStack>

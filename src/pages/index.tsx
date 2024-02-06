@@ -1,6 +1,5 @@
 import { Container, Heading, Stack, useColorModeValue, Text, HStack, Img } from '@chakra-ui/react'
 import Hero from '../components/Hero'
-import HomePageInfo from '../components/HomePageInfo'
 import FileText from '../components/FileText'
 
 const Index = () => (
