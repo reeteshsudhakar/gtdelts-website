@@ -11,6 +11,7 @@ import {
     useColorModeValue
 } from '@chakra-ui/react'
 import Warning from '../components/Warning'
+import ContactForm from '../components/ContactForm'
 
 const Contact = () => (
     <>
@@ -39,6 +40,7 @@ const Contact = () => (
                 >
                     Contact Us
                 </Text>
+                <ContactForm />
             </Stack>
         </Container>
 
