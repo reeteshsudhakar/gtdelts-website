@@ -30,7 +30,7 @@ export default function PersonProfile({ imagePath, backgroundPath, position, nam
         <Center py={6}>
             <Box
                 maxW={'270px'}
-                w={'full'}
+                w={'270px'}
                 bg={useColorModeValue('white', 'gray.800')}
                 boxShadow={'2xl'}
                 rounded={'md'}

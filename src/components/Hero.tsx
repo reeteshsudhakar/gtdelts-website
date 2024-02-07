@@ -36,7 +36,7 @@ export default function Hero({ imagePath, title, subtitle }: HeroProps) {
                         color={heroTextColor}
                         fontWeight={700}
                         lineHeight={1.2}
-                        fontSize={{ base: '3vw', sm: '5vw', md: '3vw' }}
+                        fontSize={{ base: '45px', sm: '45px', md: '45px' }}
                     >
                         {title}
                     </Text>
@@ -44,7 +44,7 @@ export default function Hero({ imagePath, title, subtitle }: HeroProps) {
                         color={'white'}
                         fontWeight={300}
                         lineHeight={1.2}
-                        fontSize={{ base: '1.5vw', sm: '3vw', md: '1.5vw' }}
+                        fontSize={{ base: '30px', sm: '30px', md: '30px' }}
                         textAlign={'left'}
                     >
                         {subtitle}
