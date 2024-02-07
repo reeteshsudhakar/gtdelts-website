@@ -1,8 +1,8 @@
-import Warning from '../components/Warning'
+import WarningPage from '../components/WarningPage'
 
 const BrothersAlumni = () => (
     <>
-        <Warning title={'Brothers and Alumni'} />
+        <WarningPage title={'Brothers and Alumni'} />
     </>
 )
 
