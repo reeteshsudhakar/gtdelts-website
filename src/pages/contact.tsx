@@ -40,11 +40,12 @@ const Contact = () => (
                 >
                     Contact Us
                 </Text>
+                <Text>
+                    Please fill out the below form to contact us! We will get back to you as soon as possible.
+                </Text>
                 <ContactForm />
             </Stack>
         </Container>
-
-        {/* <Warning title={'Contact'} /> */}
     </>
 )
 

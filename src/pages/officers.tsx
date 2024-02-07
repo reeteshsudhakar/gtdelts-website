@@ -95,12 +95,12 @@ const Officers = () => {
                             spacing={'25px'}
                         >
                             <PersonProfile
-                                name={exec.sergeantAtArms.name}
-                                position={exec.sergeantAtArms.position}
-                                imagePath={exec.sergeantAtArms.imagePath}
-                                backgroundPath={exec.sergeantAtArms.backgroundPath}
-                                socials={exec.sergeantAtArms.socials}
-                                major={exec.sergeantAtArms.major}
+                                name={exec.houseManager.name}
+                                position={exec.houseManager.position}
+                                imagePath={exec.houseManager.imagePath}
+                                backgroundPath={exec.houseManager.backgroundPath}
+                                socials={exec.houseManager.socials}
+                                major={exec.houseManager.major}
                             />
                             <PersonProfile
                                 name={exec.riskManager.name}

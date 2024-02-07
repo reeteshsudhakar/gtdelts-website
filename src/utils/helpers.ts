@@ -1,11 +1,13 @@
-function isValidEmail(email: string): boolean {
+export function isValidEmail(email: string): boolean {
     const emailRegex = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6}$/;
     return emailRegex.test(email);
 }
 
-function isValidPhoneNumber(phoneNumber: string): boolean {
-    const phoneNumberRegex = /^\d{10}$/;
-    return phoneNumberRegex.test(phoneNumber);
+export function isValidName(name: string): boolean {
+    const nameRegex = /^[A-Za-z\s]+$/;
+    return nameRegex.test(name);
 }
 
-export { isValidEmail, isValidPhoneNumber };
+export function isValidMessage(message: string): boolean {
+    return message.length > 0;
+}
