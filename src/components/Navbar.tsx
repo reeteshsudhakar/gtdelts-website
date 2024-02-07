@@ -295,8 +295,8 @@ const NAV_ITEMS: Array<NavItem> = [
         label: 'Contact Us',
         href: '/contact',
     },
-    {
-        label: 'Brothers and Alumni',
-        href: '/brothers-alumni',
-    }
+    // {
+    //     label: 'Brothers and Alumni',
+    //     href: '/brothers-alumni',
+    // }
 ]
