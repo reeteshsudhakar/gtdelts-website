@@ -1,12 +1,7 @@
 import {
     Link as ChakraLink,
     Text,
-    Code,
-    List,
-    ListIcon,
-    ListItem,
     Container,
-    Flex,
     Stack,
     useColorModeValue,
     Img,

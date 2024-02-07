@@ -1,17 +1,11 @@
 import {
     Link as ChakraLink,
     Text,
-    Code,
-    List,
-    ListIcon,
-    ListItem,
     Container,
     Flex,
     Stack,
     VStack,
-    useBreakpointValue,
     useColorModeValue,
-    Spacer,
     Avatar,
     chakra,
     SimpleGrid
@@ -19,6 +13,7 @@ import {
 import FileText from '../components/FileText'
 import { useState, useEffect } from 'react';
 import { testimonials } from '../utils/constants';
+import { deltGold, deltPurple } from '../utils/constants';
 
 interface TestimonialCardProps {
     name: string
@@ -113,7 +108,7 @@ const FAQBlock = ({ filePath }: FAQBlockProps) => {
                 fontWeight={400}
                 fontSize={{ base: '2xl', sm: '1xl', md: '3xl' }}
                 lineHeight={'110%'}
-                color={useColorModeValue('#c9a227', '#7851a9')}
+                color={useColorModeValue(deltGold, deltPurple)}
             >
                 {title}
             </Text>
@@ -140,7 +135,7 @@ const FAQs = () => (
                     fontWeight={600}
                     fontSize={{ base: '3xl', sm: '4xl', md: '5xl' }}
                     lineHeight={'110%'}
-                    color={useColorModeValue('#7851a9', '#c9a227')}
+                    color={useColorModeValue(deltGold, deltPurple)}
                 >
                     FAQs and Testimonials
                 </Text>
@@ -155,7 +150,7 @@ const FAQs = () => (
                     fontWeight={400}
                     fontSize={{ base: '3xl', sm: '4xl', md: '5xl' }}
                     lineHeight={'110%'}
-                    color={useColorModeValue('#c9a227', '#7851a9')}
+                    color={useColorModeValue(deltGold, deltPurple)}
                 >
                     FAQs
                 </Text>
@@ -177,7 +172,7 @@ const FAQs = () => (
                     fontWeight={400}
                     fontSize={{ base: '3xl', sm: '4xl', md: '5xl' }}
                     lineHeight={'110%'}
-                    color={useColorModeValue('#c9a227', '#7851a9')}
+                    color={useColorModeValue(deltGold, deltPurple)}
                 >
                     Testimonials
                 </Text>

@@ -1,18 +1,13 @@
 import {
     Link as ChakraLink,
     Text,
-    Code,
-    List,
-    ListIcon,
-    ListItem,
     Container,
-    Flex,
     Stack,
     useColorModeValue,
     Img
 } from '@chakra-ui/react'
-import Warning from '../components/Warning'
 import FileText from '../components/FileText'
+import { deltPurple, deltGold } from '../utils/constants'
 
 const AcademicsProfessionalism = () => (
     <>
@@ -30,7 +25,7 @@ const AcademicsProfessionalism = () => (
                     fontWeight={600}
                     fontSize={{ base: '3xl', sm: '4xl', md: '5xl' }}
                     lineHeight={'110%'}
-                    color={useColorModeValue('#7851a9', '#c9a227')}
+                    color={useColorModeValue(deltPurple, deltGold)}
                 >
                     Academics and Professionalism
                 </Text>

@@ -2,12 +2,10 @@
 
 import {
     Box,
-    chakra,
     Container,
     Stack,
     Text,
     useColorModeValue,
-    VisuallyHidden,
 } from '@chakra-ui/react'
 import { FaInstagram, FaMapMarkedAlt, FaFacebook, FaLinkedin } from 'react-icons/fa'
 import SocialButton from './SocialButton'

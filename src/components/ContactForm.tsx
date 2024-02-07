@@ -5,15 +5,10 @@ import emailjs from "@emailjs/browser";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import {
-    Container,
     Flex,
     Box,
-    Heading,
-    Text,
-    IconButton,
     Button,
     VStack,
-    HStack,
     Wrap,
     WrapItem,
     FormControl,
@@ -24,13 +19,7 @@ import {
     Textarea,
     useColorModeValue,
 } from '@chakra-ui/react'
-import {
-    MdPhone,
-    MdEmail,
-    MdLocationOn,
-    MdFacebook,
-    MdOutlineEmail,
-} from 'react-icons/md'
+import { MdOutlineEmail } from 'react-icons/md'
 import { BsPerson } from 'react-icons/bs'
 import { deltPurple, deltGold } from '../utils/constants'
 import { isValidEmail, isValidName, isValidMessage } from '../utils/helpers'
@@ -64,7 +53,6 @@ export default function ContactForm() {
             return
         }
 
-
         emailjs.send(
             process.env.NEXT_PUBLIC_YOUR_SERVICE_ID,
             process.env.NEXT_PUBLIC_YOUR_TEMPLATE_ID,
@@ -86,7 +74,7 @@ export default function ContactForm() {
     return (
         <Flex>
             <Box
-                bg={useColorModeValue('#c9a227', '#7851a9')}
+                bg={useColorModeValue(deltGold, deltPurple)}
                 color="white"
                 borderRadius="lg"
                 m={{ sm: 4, md: 4, lg: 8 }}

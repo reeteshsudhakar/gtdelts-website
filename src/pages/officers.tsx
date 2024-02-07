@@ -3,6 +3,7 @@ import PersonProfile from '../components/PersonProfile'
 import { Container, HStack, Stack, Text, VStack } from '@chakra-ui/react'
 import { useColorModeValue } from '@chakra-ui/color-mode'
 import { exec } from '../utils/constants'
+import { deltGold, deltPurple } from '../utils/constants'
 
 const Officers = () => {
     return (
@@ -23,7 +24,7 @@ const Officers = () => {
                         fontWeight={600}
                         fontSize={{ base: '3xl', sm: '4xl', md: '5xl' }}
                         lineHeight={'110%'}
-                        color={useColorModeValue('#7851a9', '#c9a227')}
+                        color={useColorModeValue(deltPurple, deltGold)}
                     >
                         Executive Board - 2023-24
                     </Text>

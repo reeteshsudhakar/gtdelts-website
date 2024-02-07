@@ -1,5 +1,6 @@
 export const deltPurple = "#7851a9"
 export const deltGold = "#c9a227"
+export const deltLightPurple = "#DFB2F4"
 export const deltSocials = {
     facebook: "https://www.facebook.com/GTDelt",
     instagram: "https://www.instagram.com/gtdelts",

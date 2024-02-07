@@ -8,6 +8,7 @@ import {
     useBreakpointValue,
     useColorModeValue
 } from '@chakra-ui/react'
+import { deltGold, deltLightPurple } from '../utils/constants';
 
 interface HeroProps {
     imagePath: string;
@@ -16,7 +17,7 @@ interface HeroProps {
 }
 
 export default function Hero({ imagePath, title, subtitle }: HeroProps) {
-    const heroTextColor = useColorModeValue('#c9a227', '#DFB2F4')
+    const heroTextColor = useColorModeValue(deltGold, deltLightPurple)
 
     return (
         <Flex

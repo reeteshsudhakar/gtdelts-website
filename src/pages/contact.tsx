@@ -1,16 +1,11 @@
 import {
     Link as ChakraLink,
     Text,
-    Code,
-    List,
-    ListIcon,
-    ListItem,
     Container,
     Flex,
     Stack,
     useColorModeValue
 } from '@chakra-ui/react'
-import Warning from '../components/Warning'
 import ContactForm from '../components/ContactForm'
 
 const Contact = () => (

@@ -13,7 +13,6 @@ import {
     PopoverTrigger,
     PopoverContent,
     useColorModeValue,
-    useBreakpointValue,
     useDisclosure,
     useColorMode,
     Img
@@ -44,7 +43,6 @@ export default function WithSubnavigation() {
             document.head.removeChild(styleEl);
         }, 300);
     };
-
 
     return (
         <Box>

@@ -9,7 +9,6 @@ import {
     Flex,
     Text,
     Stack,
-    Button,
     useColorModeValue,
     HStack,
 } from '@chakra-ui/react'

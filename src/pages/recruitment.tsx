@@ -1,22 +1,16 @@
 import {
     Link as ChakraLink,
     Text,
-    Code,
-    List,
-    ListIcon,
-    ListItem,
     Container,
-    Flex,
-    VStack,
     HStack,
     Stack,
     useColorModeValue,
     Heading
 } from '@chakra-ui/react'
-import Warning from '../components/Warning'
 import Hero from '../components/Hero'
 import FileText from '../components/FileText'
 import PersonProfile from '../components/PersonProfile'
+import { deltPurple, deltGold } from '../utils/constants'
 
 const Recruitment = () => (
     <>
@@ -35,7 +29,7 @@ const Recruitment = () => (
                     fontSize={{ base: '3xl', sm: '4xl', md: '5xl' }}
                     lineHeight={'110%'}
                 >
-                    <Text align='center' color={useColorModeValue('#7851a9', '#c9a227')}>
+                    <Text align='center' color={useColorModeValue(deltPurple, deltGold)}>
                         Join the Brotherhood
                     </Text>
                 </Heading>
