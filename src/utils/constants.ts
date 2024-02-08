@@ -18,14 +18,14 @@ export const testimonials = [
         avatar:
             'images/testimonials/harry.png'
     },
-    {
-        name: 'Reetesh Sudhakar',
-        role: 'Brother - Joined Fall 2021',
-        content:
-            'Delt has been a community that has helped me constantly grow throughout college. Whether it was figuring out how to handle my course load, opening myself up to others, or getting my first job, I’ve always been able to lean on the brothers for their advice and support. As a Delt, I’m also able to give back to others with countless opportunities like Trees Atlanta, JDRF, or Walk for Diabetes. My time as a Delt has helped me grow to become the best version of myself.',
-        avatar:
-            'images/testimonials/ree.png'
-    },
+    // {
+    //     name: 'Reetesh Sudhakar',
+    //     role: 'Brother - Joined Fall 2021',
+    //     content:
+    //         'Delt has been a community that has helped me constantly grow throughout college. Whether it was figuring out how to handle my course load, opening myself up to others, or getting my first job, I’ve always been able to lean on the brothers for their advice and support. As a Delt, I’m also able to give back to others with countless opportunities like Trees Atlanta, JDRF, or Walk for Diabetes. My time as a Delt has helped me grow to become the best version of myself.',
+    //     avatar:
+    //         'images/testimonials/ree.png'
+    // },
     {
         name: 'Nicole Caiati',
         role: 'Former Sweetheart - Alpha Xi Delta',
