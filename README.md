@@ -1,3 +1,3 @@
 # GT Delts Website
 
-Made by Reetesh Sudhakar, using Next.js and Chakra UI. Deployed using Vercel.
+Made by Reetesh Sudhakar, using Next and Chakra UI. Deployed using Vercel.
