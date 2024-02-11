@@ -122,7 +122,7 @@ export const exec = {
         name: 'Victor Cavalletti',
         position: 'Director of Communications',
         imagePath: '/images/exec/director-of-communications.png',
-        backgroundPath: '/images/gold-background.png',
+        backgroundPath: '/images/purple-background.png',
         socials: ['https://www.instagram.com/victor___cavalletti', 'https://www.linkedin.com/in/victorcavalletti'],
         major: 'Industrial Design'
     },
