@@ -34,9 +34,10 @@ const Recruitment = () => (
                     </Text>
                 </Heading>
                 <FileText filePath='assets/recruitment.txt' />
-                <HStack
+                <Stack
                     align={'center'}
                     spacing={8}
+                    direction={{ base: 'column', md: 'row' }}
                 >
                     <PersonProfile
                         name={'Jong Liu'}
@@ -55,7 +56,7 @@ const Recruitment = () => (
                         major={'Industrial Engineering'}
                     />
 
-                </HStack>
+                </Stack>
             </Stack>
         </Container>
     </>

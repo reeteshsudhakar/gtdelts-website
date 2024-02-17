@@ -1,6 +1,6 @@
 import Hero from '../components/Hero'
 import PersonProfile from '../components/PersonProfile'
-import { Container, HStack, Stack, Text, VStack } from '@chakra-ui/react'
+import { Container, HStack, Stack, Text, VStack, useBreakpointValue } from '@chakra-ui/react'
 import { useColorModeValue } from '@chakra-ui/color-mode'
 import { exec } from '../utils/constants'
 import { deltGold, deltPurple } from '../utils/constants'
@@ -36,8 +36,9 @@ const Officers = () => {
                         {exec.description}
                     </Text>
                     <VStack>
-                        <HStack
+                        <Stack
                             spacing={'25px'}
+                            direction={useBreakpointValue({ base: 'column', md: 'row' })}
                         >
                             <PersonProfile
                                 name={exec.president.name}
@@ -63,9 +64,10 @@ const Officers = () => {
                                 socials={exec.directorOfMemberDevelopment.socials}
                                 major={exec.directorOfMemberDevelopment.major}
                             />
-                        </HStack>
-                        <HStack
+                        </Stack>
+                        <Stack
                             spacing={'25px'}
+                            direction={useBreakpointValue({ base: 'column', md: 'row' })}
                         >
                             <PersonProfile
                                 name={exec.rushChairman.name}
@@ -91,9 +93,10 @@ const Officers = () => {
                                 socials={exec.sergeantAtArms.socials}
                                 major={exec.sergeantAtArms.major}
                             />
-                        </HStack>
-                        <HStack
+                        </Stack>
+                        <Stack
                             spacing={'25px'}
+                            direction={useBreakpointValue({ base: 'column', md: 'row' })}
                         >
                             <PersonProfile
                                 name={exec.houseManager.name}
@@ -119,8 +122,10 @@ const Officers = () => {
                                 socials={exec.directorOfCommunications.socials}
                                 major={exec.directorOfCommunications.major}
                             />
-                        </HStack>
-                        <HStack>
+                        </Stack>
+                        <Stack
+                            direction={useBreakpointValue({ base: 'column', md: 'row' })}
+                        >
                             <PersonProfile
                                 name={exec.assistantTreasurer.name}
                                 position={exec.assistantTreasurer.position}
@@ -129,7 +134,7 @@ const Officers = () => {
                                 socials={exec.assistantTreasurer.socials}
                                 major={exec.assistantTreasurer.major}
                             />
-                        </HStack>
+                        </Stack>
                     </VStack>
                 </Stack>
             </Container>

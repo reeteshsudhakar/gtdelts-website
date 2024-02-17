@@ -83,7 +83,7 @@ export default function ContactForm() {
                 <Box p={4}>
                     <Wrap spacing={{ base: 20, sm: 3, md: 5, lg: 20 }}>
                         <WrapItem>
-                            <Box bg="white" borderRadius="lg" width={{ base: '500px', sm: '300px', md: '500px', lg: '750px' }}>
+                            <Box bg="white" borderRadius="lg" width={{ base: '300px', sm: '300px', md: '500px', lg: '750px' }}>
                                 <Box m={8} color="#0B0E3F">
                                     <VStack spacing={5}>
                                         <FormControl id="name">

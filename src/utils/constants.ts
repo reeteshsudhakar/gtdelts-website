@@ -106,7 +106,7 @@ export const exec = {
         name: 'Truett Brown',
         position: 'Risk Manager',
         imagePath: '/images/exec/risk-manager.png',
-        backgroundPath: '/images/gold-background.png',
+        backgroundPath: '/images/purple-background.png',
         socials: ['https://www.instagram.com/truettbrown/', 'https://www.linkedin.com/in/truett-brown/'],
         major: 'Mechanical Engineering'
     },
@@ -114,7 +114,7 @@ export const exec = {
         name: 'Liam Adams',
         position: 'House Manager',
         imagePath: '/images/exec/house-manager.png',
-        backgroundPath: '/images/purple-background.png',
+        backgroundPath: '/images/gold-background.png',
         socials: ['https://www.instagram.com/_.liamadams._', 'https://www.linkedin.com/in/liam-adams-396730232/'],
         major: 'Mechanical Engineering'
     },

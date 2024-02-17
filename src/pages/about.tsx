@@ -77,65 +77,65 @@ const About = () => (
                 >
                     Founder's House
                 </Text>
-                <VStack spacing={'15px'}>
-                    <HStack spacing={'15px'}>
+                <VStack spacing={'10px'}>
+                    <HStack spacing={'10px'}>
                         <VStack>
                             <Img
                                 src='images/about/cunningham.png.webp'
                                 alt='William R. Cunningham'
                             />
-                            <Text as='i' fontSize={'small'}>William R. Cunningham</Text>
+                            {/* <Text as='i' fontSize={'small'}>William R. Cunningham</Text> */}
                         </VStack>
                         <VStack>
                             <Img
                                 src='images/about/earle.png.webp'
                                 alt='Alexander C. Earle'
                             />
-                            <Text as='i' fontSize={'small'}>Alexander C. Earle</Text>
+                            {/* <Text as='i' fontSize={'small'}>Alexander C. Earle</Text> */}
                         </VStack>
                         <VStack>
                             <Img
                                 src='images/about/alfred.png.webp'
                                 alt='Richard H. Alfred'
                             />
-                            <Text as='i' fontSize={'small'}>Richard H. Alfred</Text>
+                            {/* <Text as='i' fontSize={'small'}>Richard H. Alfred</Text> */}
                         </VStack>
                         <VStack>
                             <Img
                                 src='images/about/bell.png.webp'
                                 alt='Henry K. Bell'
                             />
-                            <Text as='i' fontSize={'small'}>Henry K. Bell</Text>
+                            {/* <Text as='i' fontSize={'small'}>Henry K. Bell</Text> */}
                         </VStack>
                     </HStack>
-                    <HStack spacing={'15px'}>
+                    <HStack spacing={'10px'}>
                         <VStack>
                             <Img
                                 src='images/about/johnson.png.webp'
                                 alt='John C. Johnson'
                             />
-                            <Text as='i' fontSize={'small'}>John C. Johnson</Text>
+                            {/* <Text as='i' fontSize={'small'}>John C. Johnson</Text> */}
                         </VStack>
                         <VStack>
                             <Img
                                 src='images/about/lowe.png.webp'
                                 alt='Jacob S. Lowe'
                             />
-                            <Text as='i' fontSize={'small'}>Jacob S. Lowe</Text>
+                            {/* <Text as='i' fontSize={'small'}>Jacob S. Lowe</Text> */}
                         </VStack>
                         <VStack>
                             <Img
                                 src='images/about/tarr.png.webp'
                                 alt='Eugene Tarr'
                             />
-                            <Text as='i' fontSize={'small'}>Eugene Tarr</Text>
+                            {/* <Text as='i' fontSize={'small'}>Eugene Tarr</Text> */}
                         </VStack>
                         <VStack>
                             <Img
                                 src='images/about/hunt.png.webp'
                                 alt='John L.N. Hunt'
                             />
-                            <Text as='i' fontSize={'small'}>John L.N. Hunt</Text>
+                            {/* <Text as='i' fontSize={'small'}>John L.N. Hunt</Text> */}
                         </VStack>
                     </HStack>
                 </VStack>
