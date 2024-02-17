@@ -34,8 +34,10 @@ const CampusInvolvements = () => (
                 >
                     Brotherhood Involvements
                 </Text>
-                <HStack
+                <Stack
                     spacing='25px'
+                    direction={{ base: 'column', md: 'row' }}
+                    alignItems={'center'}
                 >
                     <FileText filePath='/assets/brotherhoodInvolvements.txt' />
                     <VStack
@@ -44,12 +46,12 @@ const CampusInvolvements = () => (
                         <Img
                             src='/images/brotherhood-sc.png'
                             alt='Brotherhood'
-                            maxW='500px'
+                            maxW={{ base: '300px', md: '500px' }}
                             borderRadius={'lg'}
                         />
                         <Text as='i' fontSize='small'>Brotherhood Spring Break Trip - South Carolina</Text>
                     </VStack>
-                </HStack>
+                </Stack>
                 <Text
                     fontWeight={600}
                     fontSize={{ base: '3xl', sm: '4xl', md: '5xl' }}
@@ -59,8 +61,10 @@ const CampusInvolvements = () => (
                 >
                     Social Affairs
                 </Text>
-                <HStack
+                <Stack
                     spacing='25px'
+                    direction={{ base: 'column', md: 'row' }}
+                    alignItems={'center'}
                 >
                     <VStack
                         spacing='10px'
@@ -68,14 +72,14 @@ const CampusInvolvements = () => (
                         <Img
                             src='/images/nola-formal-2021.png'
                             alt='Formal'
-                            maxW='500px'
+                            maxW={{ base: '300px', md: '500px' }}
                             maxH='300px'
                             borderRadius={'lg'}
                         />
                         <Text as='i' fontSize='small'>Purple Iris Formal - New Orleans - 2021</Text>
                     </VStack>
                     <FileText filePath='/assets/socialAffairs.txt' />
-                </HStack>
+                </Stack>
                 <Text
                     fontWeight={600}
                     fontSize={{ base: '3xl', sm: '4xl', md: '5xl' }}
@@ -95,10 +99,10 @@ const CampusInvolvements = () => (
                         <Img
                             src='/images/trees-atlanta.png'
                             alt='Community Service'
-                            maxW='600px'
+                            maxW={{ base: '300px', md: '600px' }}
                             borderRadius={'lg'}
                         />
-                        <Text as='i' fontSize='small'>Trees Atlanta - Tree Planting Event - Brookline Triangle, January 2024</Text>
+                        <Text as='i' fontSize='small' align='center'>Trees Atlanta - Tree Planting Event - Brookline Triangle, January 2024</Text>
                     </VStack>
                 </VStack>
             </Stack>

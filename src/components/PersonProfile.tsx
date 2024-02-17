@@ -29,7 +29,6 @@ export default function PersonProfile({ imagePath, backgroundPath, position, nam
     return (
         <Center py={6}>
             <Box
-                maxW={'270px'}
                 w={'270px'}
                 bg={useColorModeValue('white', 'gray.800')}
                 boxShadow={'2xl'}

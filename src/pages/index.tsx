@@ -29,7 +29,7 @@ const Index = () => (
         </Heading>
         <FileText filePath={'/assets/introLetterPart1.txt'} />
         <HStack
-          spacing='24px'
+          spacing={{ base: '12px', md: '24px' }}
           align='center'
         >
           <Img

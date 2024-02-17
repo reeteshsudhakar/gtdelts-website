@@ -8,7 +8,8 @@ import {
     useColorModeValue,
     Avatar,
     chakra,
-    SimpleGrid
+    SimpleGrid,
+    useBreakpointValue
 } from '@chakra-ui/react'
 import FileText from '../components/FileText'
 import { useState, useEffect } from 'react';
@@ -37,7 +38,7 @@ function TestimonialCard(props: TestimonialCardProps) {
             position={'relative'}
             bg={useColorModeValue('white', 'gray.800')}
         >
-            <Flex direction={'column'} textAlign={'justify'} justifyContent={'space-between'}>
+            <Flex direction={'column'} textAlign={useBreakpointValue({ base: 'center', md: 'justify' })} justifyContent={'space-between'}>
                 <chakra.p fontWeight={'medium'} fontSize={'15px'} pb={4}>
                     {content}
                 </chakra.p>
