@@ -102,14 +102,6 @@ export const exec = {
         socials: ['https://www.instagram.com/belericant/', 'https://www.linkedin.com/in/eric-r-dong/'],
         major: 'Computer Science'
     },
-    riskManager: {
-        name: 'Truett Brown',
-        position: 'Risk Manager',
-        imagePath: '/images/exec/risk-manager.png',
-        backgroundPath: '/images/purple-background.png',
-        socials: ['https://www.instagram.com/truettbrown/', 'https://www.linkedin.com/in/truett-brown/'],
-        major: 'Mechanical Engineering'
-    },
     houseManager: {
         name: 'Liam Adams',
         position: 'House Manager',
@@ -118,11 +110,19 @@ export const exec = {
         socials: ['https://www.instagram.com/_.liamadams._', 'https://www.linkedin.com/in/liam-adams-396730232/'],
         major: 'Mechanical Engineering'
     },
+    riskManager: {
+        name: 'Truett Brown',
+        position: 'Risk Manager',
+        imagePath: '/images/exec/risk-manager.png',
+        backgroundPath: '/images/purple-background.png',
+        socials: ['https://www.instagram.com/truettbrown/', 'https://www.linkedin.com/in/truett-brown/'],
+        major: 'Mechanical Engineering'
+    },
     directorOfCommunications: {
         name: 'Victor Cavalletti',
         position: 'Director of Communications',
         imagePath: '/images/exec/director-of-communications.png',
-        backgroundPath: '/images/purple-background.png',
+        backgroundPath: '/images/gold-background.png',
         socials: ['https://www.instagram.com/victor___cavalletti', 'https://www.linkedin.com/in/victorcavalletti'],
         major: 'Industrial Design'
     },
