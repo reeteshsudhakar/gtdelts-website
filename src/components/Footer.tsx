@@ -24,6 +24,7 @@ export default function SmallWithSocial() {
                 spacing={4}
                 justify={{ base: 'center', md: 'space-between' }}
                 align={{ base: 'center', md: 'center' }}>
+                {/* I# 1738 */}
                 <Text>Delta Tau Delta Fraternity. Made with ♥ by Reetesh Sudhakar.</Text>
                 <Stack direction={'row'} spacing={6}>
                     <SocialButton label={'Address'} href={deltSocials.address}>
